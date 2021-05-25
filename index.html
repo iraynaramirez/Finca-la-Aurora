@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head>
+        <title>Mi primera página WEB: Frames</title>
+    </head>
+     <frameset rows="113,*" cols="*">
+         <frame id="frmSuperior" name="frmSuperior" src="encabezado.html" />
+         <frameset cols="150,*">
+             <frame id="frmIzquierda" name="frmIzquierda" src="menu.html" />
+             <frame id="frmCuerpo"    name="frmCuerpo"    src="central.html" />
+         </frameset>
+        <noframes>
+            <body>Su navegador no soporta frames</body>
+        </noframes>
+    </frameset>
+</html>
